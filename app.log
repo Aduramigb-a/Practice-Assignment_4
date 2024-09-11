@@ -1,0 +1,31 @@
+2024-09-09 01:15:15,791 - INFO - Starting App
+2024-09-09 01:16:05,657 - INFO - Starting Request
+2024-09-09 01:16:05,674 - INFO - Ended Request. Process time: 0.0
+2024-09-09 01:16:06,069 - INFO - Starting Request
+2024-09-09 01:16:06,090 - INFO - Ended Request. Process time: 0.020516157150268555
+2024-09-09 01:16:17,567 - INFO - Starting Request
+2024-09-09 01:16:17,570 - INFO - Ended Request. Process time: 0.0013575553894042969
+2024-09-09 01:17:31,782 - INFO - Starting App
+2024-09-09 01:17:53,278 - INFO - Starting Request
+2024-09-09 01:17:53,278 - INFO - Ended Request. Process time: 0.0
+2024-09-09 01:17:53,678 - INFO - Starting Request
+2024-09-09 01:17:53,697 - INFO - Ended Request. Process time: 0.01897144317626953
+2024-09-09 01:18:04,886 - INFO - Starting Request
+2024-09-09 01:18:04,887 - INFO - Ended Request. Process time: 0.0
+2024-09-09 01:19:08,204 - INFO - Starting Request
+2024-09-09 01:19:08,204 - INFO - Ended Request. Process time: 0.0
+2024-09-09 01:19:36,643 - INFO - Starting Request
+2024-09-09 01:19:36,646 - INFO - Ended Request. Process time: 0.0023927688598632812
+2024-09-09 01:19:55,592 - INFO - Starting Request
+2024-09-09 01:29:03,358 - INFO - Starting App
+2024-09-09 01:29:22,596 - INFO - Starting Request
+2024-09-09 01:29:22,610 - INFO - Ended Request. Process time: 0.014116525650024414
+2024-09-09 01:29:22,775 - INFO - Starting Request
+2024-09-09 01:29:22,798 - INFO - Ended Request. Process time: 0.02379298210144043
+2024-09-09 01:29:31,080 - INFO - Starting Request
+2024-09-09 01:29:31,081 - INFO - Ended Request. Process time: 0.0008418560028076172
+2024-09-09 01:29:54,301 - INFO - Starting Request
+2024-09-09 01:29:54,313 - INFO - Ended Request. Process time: 0.011356115341186523
+2024-09-09 01:30:22,654 - INFO - Starting Request
+2024-09-09 01:30:22,672 - WARNING - Username Must Be Unique
+2024-09-09 01:30:22,677 - INFO - Ended Request. Process time: 0.023431062698364258

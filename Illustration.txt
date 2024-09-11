@@ -1,0 +1,9 @@
+Create a product that has all these
+product
+order
+customer
+
+
+customer -- id, username, address
+product -- id, name, price, quantity available
+order -- id, customer_id, items
