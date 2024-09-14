@@ -20,7 +20,7 @@ logger.info("Starting App")
 # Including middleware to app
 app.add_middleware(BaseHTTPMiddleware, dispatch=ecommerce_emiddleware)
 # Including Routers
-app.include_router(router=customer_router, prefix="/customer", tags=["Customer"])
+app.include_router(router=customer_router, prefix="/customers", tags=["Customer"])
 app.include_router(router=product_router, prefix="/products", tags=["Products"])
 app.include_router(router=order_router, prefix="/orders", tags=["Orders"])
 

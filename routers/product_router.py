@@ -12,7 +12,7 @@ def get_all_products():
 
 
 # create new product
-@product_router.post('/', status_code=202)
+@product_router.post('/', status_code=201)
 def create_product(data_in: CreateProduct):
   product_id = len(all_products) + 1
   new_product = AllProducts(product_id=product_id, product_name=data_in.product_name, product_price=data_in.product_price, quantity_available=data_in.quantity_available)
@@ -21,12 +21,12 @@ def create_product(data_in: CreateProduct):
 
 
 # edit a product
-@product_router.put('/{product}', status_code=200)
-def edit_product(validate_id: int, data_in: CreateProduct):
-  product = all_products.get(validate_id)
+@product_router.put('/{product_id}', status_code=200)
+def edit_product(product_id: int, data_in: CreateProduct):
+  product = all_products.get(product_id)
   if product:
     product.product_name = data_in.product_name
     product.product_price = data_in.product_price
-    product.quantity_available == data_in.quantity_available
+    product.quantity_available = data_in.quantity_available
     return {'message': 'Update Successful', 'data': product}
   raise HTTPException(status_code=404, detail='Id Not Found!')

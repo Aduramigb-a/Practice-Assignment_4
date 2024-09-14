@@ -2,7 +2,7 @@
 import copy
 from fastapi import HTTPException
 from schemas.product_schema import all_products
-from schemas.order_schema import CreateOrder
+from schemas.order_schema import CreateOrder, all_orders
 
 class EditOrders():
   # method for parsing orders
@@ -32,6 +32,14 @@ class EditOrders():
         raise HTTPException(status_code=400, detail="Product No Longer Available")
     return data_in
 
+  @staticmethod
+  def does_order_exist(order_id: int):
+    order_set = set()
+    for order in all_orders:
+      order_set.add(order_id)
+    if not order_id in order_set:
+      raise HTTPException(status_code=405, detail='order does not exit')
+    return order_id
 
 
 
